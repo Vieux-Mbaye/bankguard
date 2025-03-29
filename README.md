@@ -1,6 +1,6 @@
 # 🏦 BankGuard – Logiciel Bancaire Sécurisé
 
-**Projet réalisé dans le cadre du cours DevSecOps (DIC2-SSI), ESP/UCAD – Année 2023–2024**
+**Projet réalisé dans le cadre du cours DevSecOps (DIC2-SSI), ESP/UCAD – Année 2024–2025**
 
 ## 🎯 Objectif
 Créer une application bancaire sécurisée avec gestion des comptes, des opérations, des rôles utilisateurs et un haut niveau de sécurité.
@@ -33,7 +33,7 @@ Créer une application bancaire sécurisée avec gestion des comptes, des opéra
 
 ## 📌 Réalisé par
 
-- **Vieux Mahindo**  
+- **Vieux Mbaye NDOUR**  
 Élève ingénieur en sécurité des systèmes d’information, ESP/UCAD  
-`vieux.mahindo@esp.sn`
+`vieuxmbayendour@esp.sn`
 
