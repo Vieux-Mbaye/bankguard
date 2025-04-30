@@ -2,7 +2,7 @@
 
 **Projet réalisé dans le cadre du cours DevSecOps (DIC2-SSI), ESP/UCAD – Année 2024–2025**
 
-## 🎯 Objectif
+## Objectif
 Créer une application bancaire sécurisée avec gestion des comptes, des opérations, des rôles utilisateurs et un haut niveau de sécurité.
 
 ## 🛠️ Stack technologique
