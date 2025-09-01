@@ -1,11 +1,16 @@
 const express = require('express');
 const router = express.Router();
-const { effectuerOperation, consulterHistorique } = require('../controllers/operationController');
+const { effectuerOperation, consulterHistorique, statistiquesMensuelles, effectuerVirement } = require('../controllers/operationController');
+const authMiddleware = require('../middlewares/authMiddleware');
 
 // Route POST
-router.post('/operations', effectuerOperation);
+router.post('/operations', authMiddleware, effectuerOperation);
 
 // Nouvelle route : consulter historique d’un compte
-router.get('/operations/:numeroCompte', consulterHistorique);
+router.get('/operations/:numeroCompte', authMiddleware, consulterHistorique);
+
+router.get('/stats/:numeroCompte', authMiddleware, statistiquesMensuelles);
+
+router.post('/virement', authMiddleware, effectuerVirement);
 
 module.exports = router;

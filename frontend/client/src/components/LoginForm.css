@@ -1,0 +1,50 @@
+/* LoginForm.css */
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.login-wrapper {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6); /* fallback if video fails */
+}
+
+.login-card {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+
+.login-card input.form-control {
+  margin-bottom: 1.7rem; /* Espace entre les champs */
+}
+
+.form-check {
+  margin-bottom: 1.7rem; /* Espace entre la checkbox et le bouton */
+}
+
+.login-card .btn {
+  margin-bottom: 1.7rem; /* Espace entre bouton et lien d'inscription */
+}
+
+.login-card .form-check-label {
+  margin-left: 0.5rem;
+}

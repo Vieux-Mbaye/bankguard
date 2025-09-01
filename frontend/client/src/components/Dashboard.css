@@ -1,0 +1,11 @@
+/* Dashboard.css */
+.dashboard-container {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+
+.custom-card {
+  border: none;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
